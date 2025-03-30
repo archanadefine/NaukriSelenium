@@ -80,7 +80,8 @@ public class NaukriAccountUpdate {
         editButton2.click();
         Thread.sleep(2000);
         //finish
-       // List<WebElement> li= driver.findElements(By.xpath("//div[@class='waves-effect chip']"));
+        //check running
+       // List<WebElement> li= driver.findElements(By.xpath("//div[@class='waves-effect chip']"));  
         //li.getLast().clear();
 
 //        WebElement element6= wait.until(
