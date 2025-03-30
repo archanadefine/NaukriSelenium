@@ -79,6 +79,7 @@ public class NaukriAccountUpdate {
         WebElement editButton2 = driver.findElement(By.xpath("//span[text()='Key skills']/following-sibling::span[@class='edit icon']"));
         editButton2.click();
         Thread.sleep(2000);
+        //finish
        // List<WebElement> li= driver.findElements(By.xpath("//div[@class='waves-effect chip']"));
         //li.getLast().clear();
 
