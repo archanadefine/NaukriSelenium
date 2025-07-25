@@ -55,7 +55,7 @@ public class NaukriAccountUpdate {
 
         WebElement element3 = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".card.quickLink ")));
-        File file = new File("src/main/resources/ArchanaChauhanCV.docx");
+        File file = new File("src/main/resources/ArchanaChauhan.pdf");
         String absolutePath = file.getAbsolutePath();
 
         // Locate file input field
