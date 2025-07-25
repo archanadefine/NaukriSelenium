@@ -61,7 +61,7 @@ public class NaukriAccountUpdate {
         // Locate file input field
         WebElement fileInput = driver.findElement(By.id("attachCV"));
         fileInput.sendKeys(absolutePath);
-
+        System.out.println("i just chjanged");
         WebElement editButton = driver.findElement(By.xpath("//span[text()='Resume headline']/following-sibling::span[@class='edit icon']"));
         editButton.click();
 
