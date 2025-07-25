@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.11' // Replace with the name of your Maven installation in Jenkins
-        jdk 'jdk-17'         // Replace with the JDK name in Jenkins (can be jdk-17, jdk-8, etc.)
+        maven 'maven' // Replace with the name of your Maven installation in Jenkins
+        jdk 'jdk-21'         // Replace with the JDK name in Jenkins (can be jdk-17, jdk-8, etc.)
     }
 
     environment {
