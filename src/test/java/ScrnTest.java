@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.v132.page.model.Screenshot;
+
 import org.openqa.selenium.html5.WebStorage;
 
 public class ScrnTest {
